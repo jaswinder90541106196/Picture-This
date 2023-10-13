@@ -38,3 +38,9 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+   @media screen and (min-width: 960px) {
+      .responsive-image {
+         width: 50%; /* Adjust this as needed to create a square */
+         height: auto;
+      }
+   }
